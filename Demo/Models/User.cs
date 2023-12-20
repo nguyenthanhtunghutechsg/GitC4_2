@@ -14,6 +14,22 @@ namespace Demo.Models
 			get { return iD; }
 			set { iD = value; }
 		}
+		private String name;
+
+		public String Name
+		{
+			get { return name; }
+			set { name = value; }
+		}
+		private DateTime birthDay;
+
+		public DateTime BirthDay
+		{
+			get { return birthDay; }
+			set { birthDay = value; }
+		}
+
+
 
 	}
 }
