@@ -21,6 +21,13 @@ namespace Demo.Models
 			get { return email; }
 			set { email = value; }
 		}
+		private String name;
+
+		public String Name
+		{
+			get { return name; }
+			set { name = value; }
+		}
 		private DateTime birthDay;
 
 		public DateTime BirthDay
@@ -28,7 +35,6 @@ namespace Demo.Models
 			get { return birthDay; }
 			set { birthDay = value; }
 		}
-
 
 	}
 }
